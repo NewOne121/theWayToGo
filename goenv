@@ -1,0 +1,3 @@
+export GOROOT=/opt/go
+export GOPATH=/opt/forge
+export PATH=$PATH:$GOROOT/bin
