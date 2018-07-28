@@ -1,6 +1,6 @@
 #!/bin/bash
 ###Installing GOlang and setting basic envirinment.
-#Some of this really not so obvious
+#Some of this really not obvious for beginner
 #We gonna use verion that hardcoded here. Probably one day i'll rework it.
 
 cd /tmp\
@@ -11,5 +11,6 @@ mkdir -p /opt/forge/src
 
 #Export env
 export GOROOT=/opt/go
+export GOPATH=$GOROOT
 export GOBPATH=/opt/forge
-export export PATH=$PATH:GOROOT/bin
+export export PATH=$PATH:$GOROOT/bin
