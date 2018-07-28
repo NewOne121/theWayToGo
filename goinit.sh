@@ -13,4 +13,4 @@ mkdir -p /opt/forge/src
 export GOROOT=/opt/go
 export GOPATH=$GOROOT
 export GOBPATH=/opt/forge
-export export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$GOROOT/bin
